@@ -1,4 +1,4 @@
-### BRAZILIAN NCTICKER for B3 
+### BRAZILIAN TICKER for B3 
 
 - C 23 ncurses terminal dashboard with dinamic search for consulting the B3 market 
 
