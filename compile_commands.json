@@ -1,5 +1,23 @@
 [
   {
+    "file": "src/data.c",
+    "arguments": [
+      "/usr/bin/clang",
+      "-std=c23",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Iinclude",
+      "src/data.c",
+      "-o",
+      "nctikr",
+      "-D_DEFAULT_SOURCE",
+      "-D_XOPEN_SOURCE=600"
+    ],
+    "directory": "/home/silas/Dev/Projetos/nctikr",
+    "output": "nctikr"
+  },
+  {
     "file": "src/main.c",
     "arguments": [
       "/usr/bin/clang",
@@ -7,6 +25,7 @@
       "-Wall",
       "-Wextra",
       "-Wpedantic",
+      "-Iinclude",
       "src/main.c",
       "-o",
       "nctikr",
